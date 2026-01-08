@@ -1,0 +1,151 @@
+
+
+/* 1. Main Character Energy (Heading) */
+h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  color: #4a4aff;
+  transition: color 0.3s;
+}
+
+h1:hover {
+  color: #ff4a8d;
+}
+
+/* 2. Subheading but Make It Aesthetic */
+h3 {
+  color: #9a8cff;
+  letter-spacing: 2px;
+  opacity: 0.8;
+  text-align: center;
+}
+
+/* 3. Paragraph Glow-Up */
+p:first-of-type {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+/* 4. “Important Info” but Dramatic */
+p:nth-of-type(2) {
+  background-color: #fff0f0;
+  border: 4px solid #ff4a4a;
+  padding: 20px;
+  transform: rotate(-1deg);
+  font-weight: bold;
+}
+
+/* 5. HR but Make It Fancy */
+hr {
+  width: 150px;
+  height: 6px;
+  background-color: #4a4aff;
+  border: none;
+  border-radius: 10px;
+  margin: 30px auto;
+}
+
+/* 6. Pre Tag = Hacker Mode */
+pre {
+  background-color: #0d0d0d;
+  color: #00ff99;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: monospace;
+  overflow-x: auto;
+}
+
+/* 7. Unordered List = Pinterest Vibes */
+ul {
+  list-style: none;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+ul li {
+  padding: 10px 0;
+}
+
+/* 8. Ordered List = Step-by-Step Boss */
+ol {
+  list-style-type: upper-roman;
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+ol li {
+  margin-bottom: 10px;
+}
+
+/* 9. Link = Don’t Look Like a Link */
+a {
+  text-decoration: none;
+  color: #6666ff;
+  transition: all 0.3s;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ff4a8d;
+}
+
+/* 10. Div = Card UI */
+div {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  margin: 30px 0;
+}
+
+/* 11. Span = Accent Word */
+span {
+  color: #ff4a8d;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* 12. Button = Click Me or Else */
+button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  background-color: #4a4aff;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+/* 13. Button Hover Chaos */
+button:hover {
+  background-color: #ff4a8d;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
+}
+
+/* 14. Footer but Low-Key */
+footer {
+  font-size: 0.8rem;
+  color: #999;
+  text-align: center;
+  margin-top: 40px;
+}
+/* 15. Whole Page Vibe Check */
+body {
+  margin: 0;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7fb;
+  color: #333;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+}
